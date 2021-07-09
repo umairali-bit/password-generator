@@ -6,9 +6,9 @@
 
 //Arrays containing all the characters needed.
 var Numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-var SpecialChars = ['!', '@', '#', '$', '%','^', '&', '*', '(', ')','{', ' }', '[', ']', '~','_', '-', '.', ';', ':',',', '\\'];
+var SpecialChars = ['!', '@', '#', '$', '%','^', '&', '*', '(', ')','{', ' }', '[', ']', '~','_', '-', '.',':',',','/'];
 var AlphaLowers = ['a', 'b', 'c', 'd', 'e','f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o','p', 'q', 'r', 's', 't','u', 'v', 'w', 'x', 'y','z'];
-var AlphaUppers = [  'A', 'B', 'C', 'D', 'E','F', 'G', 'H', 'I', 'J','K', 'L', 'M', 'N', 'O','P', 'Q', 'R', 'S', 'T','U', 'V', 'W', 'X', 'Y','Z'];
+var AlphaUppers = ['A', 'B', 'C', 'D', 'E','F', 'G', 'H', 'I', 'J','K', 'L', 'M', 'N', 'O','P', 'Q', 'R', 'S', 'T','U', 'V', 'W', 'X', 'Y','Z'];
 
 
 //main function
@@ -77,6 +77,7 @@ var generatePassword = function () {
     }
     
     //for loop to be aligned with our length
+    // added some data structures
     for (var i = 0; i < length; i++) {
       let randomPassword = [Math.floor(Math.random() * randChoice.length)];
       emptyArray.push(randChoice[randomPassword]);
