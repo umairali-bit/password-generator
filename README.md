@@ -25,4 +25,4 @@ The following shows how Password Generator works:
 **Screen Shot**
   <br>
   <br>
-![Screen shot](/assets/images/umairali-bit.github.io_horiseon_%20(1).png)
+![Screen shot](/Develop/screenshot/Screen%20Shot%202021-07-09%20at%203.56.26%20PM.png)
