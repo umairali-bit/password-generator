@@ -3,7 +3,7 @@
 
 
 ## **DESCRIPTION**
-Password generator generates a new password for the user of the user's choice. When the user click the button to generate a password, the user is then, presented with a series of prompts for password criteria. The first prompt is to choose a length between 8 and 128 characters for the password. Then the user is asked to confirm if this password should include lowercase, uppercase, numeric and /or special characters. The user should choose atleast one option for the password. When all prompts are answerd, then a password is generated that matches the option. 
+Password generator generates a new password for the user of the user's choice. When the user clicks the button to generate a password, the user is then, presented with a series of prompts for password criteria. The first prompt is to choose a length between 8 and 128 characters for the password. Then the user is asked to confirm if this password should include lowercase, uppercase, numeric, and /or special characters. The user should choose at least one option for the password. When all prompts are answered, then a password is generated that matches the option. 
 
 
 
